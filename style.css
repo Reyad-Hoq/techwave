@@ -5,7 +5,7 @@
   --bg01: #1A0B2E;
   --bg02: #230E3D;
   --bg03: #35116566;
-  --linear01: liner-gradient(45deg,#F7E93F, #FB09B4, #9100F8);
+  --primary: #00FF88;
 }
 body {
     font-family: "Inter", sans-serif;
@@ -25,4 +25,18 @@ header {
 .hero-banner {
   background: url(./assets/hero-bg.png);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 760px;
+  padding: 100px;
+}
+.hero-circle {
+  background: url(./assets/hero-circle.png) no-repeat center / cover ;
+  min-height: 350px;
+  width: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

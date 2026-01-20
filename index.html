@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
   <title>TechWave</title>
@@ -21,8 +25,22 @@
     </nav>
   </header>
   <main>
-    <section class="hero-banner">
-
+    <section class="hero-banner flex flex-col justify-centre items-center gap-y-10">
+      <div class="relative inline-block">
+        <div class="hero-circle">
+          <img src="./assets/microphone.png" alt="">
+        </div>
+        <div class="text-[#1A0B2E] bg-[#00FF88] absolute top-4 right-3 w-20 text-lg font-semibold text-center py-2 rounded-full  animate-bounce">
+          NEW</div>
+      </div>
+      <div class="hero-details text-white text-center flex flex-col gap-y-3">
+        <h2 class=" font-extrabold text-6xl">TechWave</h2>
+        <P class="text-base font-normal ">Your daily dose of tech insights, productivity hacks, and personal growth</P>
+        <div class="mt-4">
+          <button class="bg-[linear-gradient(378deg,#F7E93F,#FB09B4,#9100F8)] px-5 py-3 text-white font-semibold text-base rounded-full mr-2"><i class="ri-spotify-line"></i> Listen On Spotify</button>
+          <button class="border border-[#00FF88] text-[#00FF88] px-5 py-3 rounded-full" ><i class="fa-regular fa-envelope"></i> Subscribe</button>
+        </div>
+      </div>
     </section>
   </main>
 </body>
