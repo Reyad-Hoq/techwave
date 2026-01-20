@@ -40,3 +40,30 @@ header {
   justify-content: center;
   align-items: center;
 }
+.grid-container {
+   width: 75%;
+   max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  gap: 30px;
+  display: grid;
+  grid-template-areas: 
+    "first second second"
+    "first third third"
+    "four four five";
+}
+.features-1 {
+  grid-area: first;
+}
+.features-2 {
+  grid-area: second;
+}
+.features-3 {
+  grid-area: third;
+}
+.features-4 {
+  grid-area: four;
+}
+.features-5 {
+  grid-area: five;
+}
